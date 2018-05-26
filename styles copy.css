@@ -41,9 +41,34 @@ nav ul a:hover {
 footer h3 {
     height: 40px; 
     margin-bottom: 0; 
-    background-color: #343a40;
+    background-color: #343A3E;
     color: #ffffff; 
     font-size: 15px;
+}
+
+.allWindow {
+    width: 100%;
+}
+
+
+@media (min-width: 780px) {
+    form {
+        width: 32%;
+    }
+    
+}
+
+@media (max-width: 780px) {
+    .header {
+        margin: 0;
+    }
+
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
 }
 
 /* header {

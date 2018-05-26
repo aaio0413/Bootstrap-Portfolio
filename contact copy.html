@@ -17,13 +17,13 @@
         <nav class="">
             <ul class="nav nav-tabs d-flex justify-content-end mb-0 mr-4">
                 <li class="nav-item">
-                    <a class="nav-link active" href="index copy.html">About</a>
+                    <a class="nav-link" href="index copy.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio copy.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact copy.html">Contact</a>
+                    <a class="nav-link active" href="contact copy.html">Contact</a>
                 </li>
             </ul>
         </nav>
@@ -31,31 +31,31 @@
 
     <div class="main container mt-5" style="border: solid 2px lightgray; margin-bottom: 20px; font-size: 23px; font-family:'Times New Roman', Times, serif">
         <div class="row">
-            <div style="border-bottom: solid 2px 4aaaa5;">
-                    <div class="row mt-3">
-                        <header class= "ml-5">
-                            <h2>Contact</h2>
-                        </header>
-                    </div>
+            <div class="allWindow">
+                <div class="row mt-3 header">
+                    <header class= "ml-3">
+                        <h2>Contact</h2>
+                    </header>
+                </div>
 
-                    <form class="ml-3">
+                <form class="ml-3 mb-4" action="mailto:takahiro04kawaguchi13@gmail.com" method="post">
+                    <div class="form-group">
+                        <label for="inputName">Your Name</label>
+                        <input type="Name" name="Name" class="form-control" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" name="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                    </div>
                         <div class="form-group">
-                            <label for="inputName">Your Name</label>
-                            <input type="Name" class="form-control" placeholder="Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                            <div class="form-group">
-                            <label for="textarea">Message</label> <br>
-                            <input type="message" class="textarea form-control" placeholder="Message">
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="ml-3 btn btn-primary">Submit</button>
-                        </div>
-                    </form>
+                        <label for="textarea">Message</label> <br>
+                        <input type="message" name="Message" class="textarea form-control" placeholder="Message">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
